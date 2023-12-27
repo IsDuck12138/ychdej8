@@ -6,8 +6,8 @@ int open_write();//新建并打开文件夹
 void ReadUnzip();//读取并解压JSON文件
 void input();//输入地址
 void menu();//菜单
+void saveUnzip();
 int option();//选择
-int write();//写入
 void ReadUnzip();//解压JSON
 void zip();//压缩JSON
 int check();//检查JSON格式
@@ -19,10 +19,10 @@ flag1:	menu();
 	if (op == 1)
 	{
 		input();
+		check();
 		open_read();
 		zip();
 		ReadUnzip();
-		check();
 		system("pause");
 		system("cls");
 	}//读取

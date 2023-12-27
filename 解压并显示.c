@@ -1,12 +1,12 @@
 #include"Í·ÎÄ¼þ.h"
-void saveUnzip()
+void ReadUnzip()
 {
 	int color = 1;
-	char a=1;
+	char a = 1;
 	int i = 0;
 	int flag = 1;
-	FILE*pp;
-	pp= fopen("yasuo", "r");
+	FILE* pp;
+	pp = fopen("yasuo", "r");
 	FILE* p;
 	char cc[100];
 	if (n == 1)
@@ -35,10 +35,10 @@ void saveUnzip()
 			if (c == '{') {
 				i++;
 				printf("\033[33m%c\n\033[0m", c);
-				fprintf(p, "% c\n",c);
+				fprintf(p, "% c\n", c);
 				for (int n = 0; n < i * 4; n++) {
 					printf(" ");
-					fprintf(p, " " );
+					fprintf(p, " ");
 				}
 			}
 			else if (c == '}') {
@@ -46,7 +46,7 @@ void saveUnzip()
 				printf("\n");
 				fprintf(p, "\n");
 				for (int n = 0; n < i * 4; n++) {
-					printf(" "); 
+					printf(" ");
 					fprintf(p, " ");
 				}
 				printf("\033[33m%c\033[0m", c);

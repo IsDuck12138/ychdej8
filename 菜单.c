@@ -2,12 +2,12 @@
 void menu()
 {
 	printf("+---+-----------------------------------------+\n");
-	printf("|           please select a feature           |\n");
+	printf("|                请选择一个功能               |\n");
 	printf("+---+-----------------------------------------+\n");
-	printf("| 1 |Read a JSON file and unzip it        |\n");
+	printf("| 1 |      树状缩进形式保存一个JSON文件       |\n");
 	printf("+---+-----------------------------------------+\n");
-	printf("| 2 |Read a JSON file and zip it              |\n");
+	printf("| 2 |       打开一个JSON文件并解压它          |\n");
 	printf("+---+-----------------------------------------+\n");
-	printf("| 3 |Read a JSON file                        |\n");
+	printf("| 3 |      树状缩进形式打开一个JSON文件       |\n");
 	printf("+---+-----------------------------------------+\n");
 }

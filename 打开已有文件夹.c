@@ -8,6 +8,5 @@ int open_read()
 		return 0;
 	}
 	printf("Successfully open file\n");
-	system("pause");
 	return 0;
 }
